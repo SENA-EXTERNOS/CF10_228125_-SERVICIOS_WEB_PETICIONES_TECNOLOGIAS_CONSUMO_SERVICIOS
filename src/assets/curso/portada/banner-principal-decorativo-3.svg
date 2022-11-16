@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87.159" height="56.643" viewBox="0 0 87.159 56.643">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.514" cy="0.319" r="0.599" gradientTransform="matrix(0.684, -0.057, 0.03, 0.769, -1.267, 11.053)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcfcfd"/>
+      <stop offset="0.983" stop-color="#d4cde9"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.656" gradientTransform="translate(0.18) scale(0.64 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2478fe"/>
+      <stop offset="0.994" stop-color="#804ad6"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_904050" data-name="Grupo 904050" transform="translate(-474.396 -72.003)">
+    <path id="Trazado_632371" data-name="Trazado 632371" d="M494.921,101.818l66.635-5.345-4.488,28.562-66.671,3.61Z" fill="#230548" fill-rule="evenodd" opacity="0.57"/>
+    <path id="Trazado_632372" data-name="Trazado 632372" d="M481.791,78.873,548.47,72l-7.315,46L474.4,122.727Z" fill-rule="evenodd" fill="url(#radial-gradient)"/>
+    <path id="Trazado_632373" data-name="Trazado 632373" d="M548.47,72l.74,1-7.631,45.491-66.846,4.535-.336-.3L541.155,118Z" fill="#754598" fill-rule="evenodd"/>
+    <path id="Trazado_632374" data-name="Trazado 632374" d="M491.874,82.442l-4.228,26.4,43.007-2.853,4.36-27.439Z" fill-rule="evenodd" fill="url(#radial-gradient-2)"/>
+    <path id="Trazado_632375" data-name="Trazado 632375" d="M509.394,89.126l-1.727,10.488,6.917-6.8Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="Trazado_632376" data-name="Trazado 632376" d="M486.912,113.374l-.5,1.783,43.055-3.063.613-1.838Z" fill="#230548" fill-rule="evenodd" opacity="0.57"/>
+    <path id="Trazado_632377" data-name="Trazado 632377" d="M487.232,113.611,487,114.684l17.684-1.072.251-1.267Z" fill="#fff" fill-rule="evenodd"/>
+    <path id="Trazado_632378" data-name="Trazado 632378" d="M506.365,113.143c-.151,1.058-.857,1.833-1.577,1.73s-1.18-1.044-1.028-2.1.857-1.833,1.576-1.73S506.516,112.085,506.365,113.143Z" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

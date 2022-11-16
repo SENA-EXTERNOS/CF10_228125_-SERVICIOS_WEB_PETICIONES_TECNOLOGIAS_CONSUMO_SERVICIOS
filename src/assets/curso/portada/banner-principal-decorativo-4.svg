@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.25" height="20.774" viewBox="0 0 30.25 20.774">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.514" cy="0.319" r="0.599" gradientTransform="matrix(0.684, -0.057, 0.03, 0.769, -3.456, 27.996)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcfcfd"/>
+      <stop offset="0.983" stop-color="#d4cde9"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_904051" data-name="Grupo 904051" transform="translate(-445.401 -70.405)">
+    <g id="Grupo_903849" data-name="Grupo 903849">
+      <path id="Trazado_632493" data-name="Trazado 632493" d="M448.3,73.095l26.1-2.689-2.863,18-26.13,1.85Z" fill-rule="evenodd" fill="url(#radial-gradient)"/>
+      <path id="Trazado_632494" data-name="Trazado 632494" d="M474.394,70.406l1.257,1.7-2.59,17.5L447.5,91.18l-2.1-.92,26.13-1.85Z" fill="#754598" fill-rule="evenodd"/>
+    </g>
+    <g id="Grupo_903851" data-name="Grupo 903851">
+      <g id="Grupo_903850" data-name="Grupo 903850">
+        <path id="Trazado_632495" data-name="Trazado 632495" d="M456.6,74.66l-5.813,6.911,5.046,5.444.379-2.993-3.768-2.51,3.744-3.739Z" fill="#7a72a9" fill-rule="evenodd"/>
+        <path id="Trazado_632496" data-name="Trazado 632496" d="M463.153,73.817l4.2,5.4L461.2,86.183l.279-2.944,4.286-3.621-2.883-2.75Z" fill="#7a72a9" fill-rule="evenodd"/>
+        <path id="Trazado_632497" data-name="Trazado 632497" d="M456.2,86.958,461.693,74l1.206-.155-5.737,12.959Z" fill="#7a72a9" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
