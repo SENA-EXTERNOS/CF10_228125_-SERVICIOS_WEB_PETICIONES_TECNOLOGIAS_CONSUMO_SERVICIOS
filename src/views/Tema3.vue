@@ -30,8 +30,8 @@
 
     SlyderA(tipo="b").bg-slider
       .row.mt-5
-        .col-md-6.mb-4.mb-md-0.px-5 
-         .row.t-align 
+        .col-md-6.mb-4.mb-md-0.px-5
+          .row.justify-content-center.align-items-center.my-lg-6.t-align
             h5 #[i Postman]                    
             p Es una plataforma #[i API] para construir y usar #[i API.] Puedes descargar #[i Postman] en su #[i web] oficial: https://www.postman.com/downloads/
             p La instalación es muy sencilla, en #[i Windows] es simplemente ejecutar el instalador y seguir las indicaciones.
@@ -41,7 +41,7 @@
             img(src="@/assets/curso/temas/tema3/img3.png", alt="alt")
       .row.mt-5
         .col-md-6.mb-4.mb-md-0.px-5 
-         .row.t-align
+          .row.justify-content-center.align-items-center.my-lg-6.t-align
             h5 Peticiones con un Body 
             p En postman, se pueden realizar en la siguiente sección mostrada, por lo regular con peticiones como #[i POST, PUT, PATCH.]
         .col-md-5
@@ -50,7 +50,7 @@
       
       .row.mt-5
         .col-md-6.mb-4.mb-md-0.px-5 
-         .row.t-align 
+          .row.justify-content-center.align-items-center.my-lg-6.t-align
             h5 Peticiones con un #[i Get]
             p A continuación, se muestra el resultado de una petición con #[i GET] a la #[i URL:] https://api.spaceflightnewsapi.net/v3/info
             p La respuesta mostrada es en formato #[i JSON.] Se puede observar un objeto con los campos o claves: versión, que es un valor de texto y #[i newsSites, newsSites] a su vez, es un vector de textos.
@@ -59,7 +59,7 @@
             img(src="@/assets/curso/temas/tema3/img5.png", alt="alt") 
       .row.mt-5
         .col-md-6.mb-4.mb-md-0.px-5 
-         .row.t-align 
+          .row.justify-content-center.align-items-center.my-lg-6.t-align
             h5 #[i SOAPUI]
             p Según su web oficial, es la herramienta de prueba automatizada más utilizada en el mundo para las #[i API] de #[i SOAP] y #[i REST.] Escriba, ejecute, integre y automatice pruebas de #[i API] avanzadas con facilidad.           
         .col-md-5
@@ -70,7 +70,7 @@
       .col-md-10
         .cajon.color-cajon-observacion.p-3
           .row.justify-content-center 
-            .col-md-2
+            .col-auto.mt-4
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/img22.png', alt='').img125                            
             .col-md-8.mt-4
@@ -333,7 +333,7 @@
       .col-md-10
         .cajon.color-cajon-observacion.p-3
           .row.justify-content-center 
-            .col-md-2
+            .col-auto.mt-4
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/img22.png', alt='').img125                            
             .col-md-8.mt-4

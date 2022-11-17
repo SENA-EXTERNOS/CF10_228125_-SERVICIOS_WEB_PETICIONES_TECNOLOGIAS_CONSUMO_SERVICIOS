@@ -63,15 +63,39 @@
 
     p.mt-5.mb-5 Para profundizar, entender con mayor claridad y avanzar en el desarrollo temático, veamos esta tabla de respuestas #[i HTTP.]
     .row.justify-content-center
-      .col-md-8
-        figure
-          img(src="@/assets/curso/temas/tema2/img10.png", alt="alt").mb-5  
+      .col-md-9
+        .tabla-b
+          .tabla-b__header         
+            td.h5 Código
+            td.h5 Definición                                   
+            td.h5 Ejemplos
+          table
+            tr
+              th.h5.text-regular 1xx
+              th.h5.text-regular Información
+              th.h5.text-regular 100: continuar
+            tr
+              th.h5.text-regular 2xx
+              th.h5.text-regular Éxito
+              th.h5.text-regular 200: solicitud exitosa
+            tr
+              th.h5.text-regular 3xx
+              th.h5.text-regular Redirección
+              th.h5.text-regular 301: página movida
+            tr
+              th.h5.text-regular 4xx
+              th.h5.text-regular Error del cliente
+              th.h5.text-regular 404: recursos no encontrado
+            tr
+              th.h5.text-regular 5xx
+              th.h5.text-regular Error del Servidor
+              th.h5.text-regular 500: error interno de servidor
 
     .row.justify-content-center.mt-5
       .col-md-10
         .cajon.color-cajon-observacion.p-3
           .row.justify-content-center 
-            .col-md-2
+            .col-auto.mt-4
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/img22.png', alt='').img125                            
             .col-md-8.mt-4

@@ -38,8 +38,18 @@
 
     .row.justify-content-center.mt-5
       .col-md-10
-        figure
-          img(src="@/assets/curso/temas/tema1/img3.png", alt="alt").mb-5 
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img.bloque-img-left(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2.png')})`}"
+          )                             
+          .bloque-texto-g__texto.bloque-text-rigth.p-4
+            p Tal como su nombre lo dice, un servicio web, es un servicio que se da en un entorno web.<br><br> 
+            p Una definición de IBM (2022), nos dice:<br><br>
+
+            i.fas.fa-quote-left.color-comillas-verdes
+            p Los servicios #[i web] son aplicaciones modulares autocontenidas que se pueden describir, publicar, localizar e invocar a través de una #[i red.]
+            i.fas.fa-quote-right.color-comillas-verdes
+
     
     .row.justify-content-center.mt-5          
       .col-md-3
@@ -51,8 +61,8 @@
 
       .bloque-texto-f.color-cajon-comillas.pt-4.px-5.mb-5
         .bloque-texto-f__comillas
-          i.fas.fa-quote-left
-          i.fas.fa-quote-right
+          i.fas.fa-quote-left.color-comillas-azules
+          i.fas.fa-quote-right.color-comillas-azules
         h4.text-regular.text-center.bloque-texto-f__texto Componente de #[i software] que se comunica con otras aplicaciones codificando los mensajes en #[i XML] y enviando estos mensajes a través de protocolos estándares de #[i Internet] tales como, el #[i Hypertext Transfer Protocol (HTTP).] Intuitivamente, un #[i Web Service] es similar a un sitio web que no cuenta con un interfaz de usuario y que da servicio a las aplicaciones en vez de a las personas. Un #[i Web Service,] en vez de obtener solicitudes desde el navegador y retornar páginas #[i web] como respuesta, lo que hace es recibir solicitudes a través de un mensaje formateado en #[i XML] desde una aplicación, realiza una tarea y devuelve un mensaje de respuesta también formateado en #[i XML]
 
       p.mt-5.mb-5 La anterior definición, habla sobre el concepto de #[i web service] con el protocolo #[i SOAP;] para mayor claridad, en la tabla anexa se puede visualizar el resumen de los Bloques Constructivos de un servicio #[i web] necesarios para facilitar las comunicaciones remotas entre aflicciones.
@@ -241,7 +251,7 @@
         .col-md-10
           .cajon.color-cajon-observacion.p-3
             .row.justify-content-center 
-              .col-md-2
+              .col-auto.mt-4
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img22.png', alt='').img125                            
               .col-md-8.mt-4
