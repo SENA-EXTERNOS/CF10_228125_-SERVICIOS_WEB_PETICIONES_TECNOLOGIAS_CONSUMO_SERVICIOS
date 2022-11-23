@@ -10,7 +10,7 @@
     h2 Servicios #[i web]
 
     .row.justify-content-center.mt-5
-      .col-md-10
+      .col-md-12
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.bloque-img-left(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
@@ -36,18 +36,20 @@
           .bloque-texto-b__texto
             p En el mundo del #[i software] y las aplicaciones #[i web], también se entregan o usan servicios. Cuando se habla del despliegue de un servicio, se hace alusión a una herramienta o utilidad de la cual otro #[i software] o aplicación puede hacer uso. Un #[i software] o cliente del servicio puede ser interno o externo al contexto, así como un servicio de #[i software] puede convertirse en cliente a la vez y un cliente en servidor (quien ofrece un servicio). 
 
+    
     .row.justify-content-center.mt-5
-      .col-md-10
+      .col-md-12
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.bloque-img-left(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img2.png')})`}"
           )                             
           .bloque-texto-g__texto.bloque-text-rigth.p-4
             p Tal como su nombre lo dice, un servicio web, es un servicio que se da en un entorno web.<br><br> 
-            p Una definición de IBM (2022), nos dice:<br><br>
-
+            p Una definición de IBM (2022), nos dice:<br><br>         
+            figure
+              img(src="@/assets/curso/temas/tema1/Linea.png", alt="alt")           
             i.fas.fa-quote-left.color-comillas-verdes
-            p Los servicios #[i web] son aplicaciones modulares autocontenidas que se pueden describir, publicar, localizar e invocar a través de una #[i red.]
+            p.text-bloque Los servicios #[i web] son aplicaciones modulares autocontenidas que se pueden describir, publicar, localizar e invocar a través de una #[i red.]
             i.fas.fa-quote-right.color-comillas-verdes
 
     
@@ -183,6 +185,7 @@
           img(src='@/assets/curso/temas/tema1/img15.png', alt='')  
         h2.mt-5.mb-5 #[i RESTFUL]       
         p Cuando se habla de #[i REST (Representational State Transfer)], se refiere a una arquitectura de #[i software web,] cliente – servidor, basada en un diseño de petición y respuesta. Esta arquitectura (#[i REST]) se utiliza en aplicaciones distribuidas que usan #[i HTTP] para enviar mensajes y comunicarse entre componentes
+        p El cliente envía una solicitud y el servidor responde, pero en #[i REST], la comunicación se basa en recursos. Esto significa que los mensajes se envían como representaciones de recursos. Los recursos pueden ser cualquier pieza de información que sea independiente. Esto puede incluir documentos, imágenes, representaciones de objetos, etc.
      
 
     p.mt-5.mb-5 Cabe anotar que toda la información necesaria para que el servidor entienda y responda a la solicitud viene con la solicitud, y las solicitudes están contenidas entre sí.

@@ -104,7 +104,7 @@
     .row.justify-content-start.mb-5
       .bloque-texto-b.color-bloque-texto-verde-inicial
         .bloque-texto-b__texto
-          p Vamos a realizar de manera rápida un #[i API REST] con un #[i Endpoint] donde se aplique el método #[i GET,] usaremos para ello: #[i NodeJS,] y se codificará el lenguaje de programación #[i Javascript.] Finalmente, probaremos dicho #[i Endpoint,] con la herramienta #[i Postman.]
+          p Vamos a realizar de manera rápida un #[span.italica-texto API REST] con un #[span.italica-texto Endpoint] donde se aplique el método #[span.italica-texto GET,] usaremos para ello: #[span.italica-texto NodeJS,] y se codificará el lenguaje de programación #[span.italica-texto Javascript.] Finalmente, probaremos dicho #[span.italica-texto Endpoint,] con la herramienta #[span.italica-texto Postman]
 
     .row.justify-content-center.mb-4
       .col-lg-12
@@ -271,7 +271,7 @@
       .row.justify-content-start.mb-5
         .bloque-texto-b.color-bloque-texto-verde-inicial
           .bloque-texto-b__texto
-            p Existen varias formas para realizar la subida de un código al repositorio de #[i git GitHub]; sin embargo, aquí le enseñamos una forma simple y particular indicada por el propio gestor de repositorios.
+            p Existen varias formas para realizar la subida de un código al repositorio de #[span.italica-texto git GitHub]; sin embargo, aquí le enseñamos una forma simple y particular indicada por el propio gestor de repositorios.
 
       .row.justify-content-center.mb-4
         .col-lg-12
