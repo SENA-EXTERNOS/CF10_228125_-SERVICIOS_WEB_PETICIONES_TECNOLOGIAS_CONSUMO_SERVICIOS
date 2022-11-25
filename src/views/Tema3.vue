@@ -104,7 +104,7 @@
     .row.justify-content-start.mb-5
       .bloque-texto-b.color-bloque-texto-verde-inicial
         .bloque-texto-b__texto
-          p Vamos a realizar de manera rápida un #[span.italica-texto API REST] con un #[span.italica-texto Endpoint] donde se aplique el método #[span.italica-texto GET,] usaremos para ello: #[span.italica-texto NodeJS,] y se codificará el lenguaje de programación #[span.italica-texto Javascript.] Finalmente, probaremos dicho #[span.italica-texto Endpoint,] con la herramienta #[span.italica-texto POSTMAN]
+          p Vamos a realizar de manera rápida un #[span.italica-texto API REST] con un #[span.italica-texto Endpoint] donde se aplique el método #[span.italica-texto GET,] usaremos para ello: #[span.italica-texto NodeJS,] y se codificará el lenguaje de programación #[span.italica-texto Javascript.] Finalmente, probaremos dicho #[span.italica-texto Endpoint,] con la herramienta #[span.italica-texto POSTMAN.]
 
     .row.justify-content-center.mb-4
       .col-lg-12
