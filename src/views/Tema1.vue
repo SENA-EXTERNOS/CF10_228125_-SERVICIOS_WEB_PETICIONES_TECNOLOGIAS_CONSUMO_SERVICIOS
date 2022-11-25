@@ -11,7 +11,7 @@
 
     .row.justify-content-center.mt-5
       .col-md-12
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-secundario.p-5.p-sm-4.p-md-5
           .bloque-texto-g__img.bloque-img-left(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
           )                             
