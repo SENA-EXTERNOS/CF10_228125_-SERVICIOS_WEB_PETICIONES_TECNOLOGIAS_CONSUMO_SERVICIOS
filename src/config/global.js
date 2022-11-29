@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Servicios <i>web</i>, peticiones y tecnologías de consumo en servicios.',
+      'Servicios <i>web</i>, peticiones y tecnologías de consumo en servicios',
     descripcionCurso:
       'El componente formativo 10 se realiza con el fin de que el estudiante adquiera los conocimientos sobre conceptos ligados a su programa tales como: servicios <i>web</i>, tipos de servicios y tecnologías relacionadas para consumo de dichos servicios.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
