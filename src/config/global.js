@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Servicios <i>web</i>, peticiones y tecnologías de consumo en servicios',
+      'Servicios web, peticiones y tecnologías de consumo en servicios',
     descripcionCurso:
-      'El componente formativo 10 se realiza con el fin de que el estudiante adquiera los conocimientos sobre conceptos ligados a su programa tales como: servicios <i>web</i>, tipos de servicios y tecnologías relacionadas para consumo de dichos servicios.',
+      'Este componente formativo, aborda aspectos generales y claves relacionados con los servicios web, las peticiones y las tecnologías de consumo de servicios. El aprendiz podrá afianzarse en conceptos y acciones, propios de este proceso.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -48,14 +48,7 @@ export default {
         numero: '1',
         titulo: 'Concepto y tipos de servicios <i>web</i>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Evolución de los servicios <i>web</i>',
-            hash: 't_1_1',
-          },
-        ],
+        subMenu: [],
       },
 
       {
@@ -71,14 +64,7 @@ export default {
         numero: '3',
         titulo: 'Tecnologías para consumir y probar servicios',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Tipos y características',
-            hash: 't_3_1',
-          },
-        ],
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -123,31 +109,35 @@ export default {
   },
   complementario: [
     {
-      tema: '<i>Newmain</i>',
-      referencia: '<i>Statworx, 2022</i>',
-      tipo: 'Manual',
+      tema: 'Tecnologías para consumir y probar servicios web',
+      referencia:
+        'Statworx. (2022). <i>Prueba de API REST con Newman.</i> STATWORX.',
+      tipo: 'Artículo',
       link:
         'https://www.statworx.com/en/content-hub/blog/testing-rest-apis-with-newman/',
     },
     {
-      tema: '<i>Postman y Newman</i>',
-      referencia: '<i>Velotio Technologies, 2019</i>',
-      tipo: 'Manual',
+      tema: 'Tecnologías para consumir y probar servicios web',
+      referencia:
+        'Medium. (2019). <i>Pruebas de API con Postman y Newman.</i> MEDIUM',
+      tipo: 'Artículo',
       link:
         'https://medium.com/velotio-perspectives/api-testing-using-postman-and-newman-6c68c33303fc',
     },
     {
-      tema: '<i>REST vs GraphQL vs gRPC</i>',
-      referencia: '<i>Medium Staff, 2021</i>',
-      tipo: 'Lectura',
+      tema: 'Tecnologías para consumir y probar servicios web',
+      referencia:
+        'Chamera, C. (2022). <i>REST frente a GraphQL frente a gRPC</i> [Web log post]. ',
+      tipo: 'Blog',
       link: 'https://blog.bitsrc.io/rest-vs-graphql-vs-grpc-684edfacf810',
     },
     {
-      tema: '<i>WebServices</i>',
-      referencia: '<i>Medium Staff, 2019</i>',
-      tipo: 'Lectura',
+      tema: 'Concepto y tipos de servicios web',
+      referencia:
+        'Sharma, L. (2019).  <i>Introducción a los servicios web: Notas.</i> MEDIUM. ',
+      tipo: 'Artículo',
       link:
-        'https://medium.com/@lokeshsharma596/webservices-introduction-notes-50ce1e52ec1f',
+        'https://medium.com/@lokeshsharma596/webservices-introduction-notes-50ce1e52ec1f ',
     },
   ],
   glosario: [
@@ -205,27 +195,25 @@ export default {
   referencias: [
     {
       referencia:
-        'Amazon Web Services, Inc. (2022). <i>¿Qué es la API RESTful?</i>',
+        'Amazon Web Services, Inc. (2022). <em>¿Qué es la API RESTful?</em> AWS. ',
       link: 'https://aws.amazon.com/es/what-is/restful-api/',
     },
     {
       referencia:
-        'Desarrollo web (24 de junio de 2004). <i>XML Web Services.</i>',
+        'Desarrollo web. (2004). <em>XML Web Services</em>. DESARROLLOWEB. ',
       link: 'https://desarrolloweb.com/articulos/1545.php',
     },
     {
-      referencia:
-        'IBM Corporation. (13 de octubre de 2022). <i>Servicios Web.</i>',
+      referencia: 'IBM Corporation. (2022). <em>Servicios Web</em>. IBM.',
       link: 'https://www.ibm.com/docs/es/was/9.0.5?topic=services-web',
     },
     {
-      referencia:
-        'OpenJS Foundation. (2022).<i> Descargas Versión actual: 18.12.0 (includes npm 8.19.2).</i>',
+      referencia: 'IBM Corporation. (2022). <em>Servicios Web</em>. IBM. ',
       link: 'https://nodejs.org/es/',
     },
     {
       referencia:
-        'Swagger supported by SMARTBEAR. (2022). <i>OpenAPI Specification.</i>',
+        'Swagger supported by SMARTBEAR. (2022). <em>OpenAPI Specification</em>. SWAGGER. ',
       link: 'https://swagger.io/specification/',
     },
   ],
