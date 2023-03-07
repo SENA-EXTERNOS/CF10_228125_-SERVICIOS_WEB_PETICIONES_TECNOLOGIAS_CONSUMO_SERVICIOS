@@ -15,8 +15,10 @@
           p.mb-0 Apreciado aprendiz, bienvenido a este componente formativo, donde se desarrollarán temas de gran importancia para los procesos relacionados con en el desarrollo web y, también, se abordarán los distintos métodos de petición y las respuestas HTTP, por lo que se hará referencia a algunas de las tecnologías más usadas para probar y consumir los servicios web.
     .row.justify-content-center.mt-5          
       .col-md-9
-          p Fortalezca y cualifique su rol como desarrollador web fullstack, especialmente, en lo que se refiere a BackEnd (acciones necesarias para que una web funcione correctamente). Familiarícese con lo que aquí se expone para, posteriormente, aplicar adecuadamente las herramientas de trabajo en la realización de tales procesos.
+          p Fortalezca y cualifique su rol como desarrollador web full stack, especialmente, en lo que se refiere a <em>BackEnd</em> (acciones necesarias para que una web funcione correctamente). Familiarícese con lo que aquí se expone para, posteriormente, aplicar adecuadamente las herramientas de trabajo en la realización de tales procesos.
+
           p.mb-5 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
       .col-md-3
         figure
           img(src="@/assets/curso/temas/introduccion.png", alt="alt")

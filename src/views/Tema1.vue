@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Concepto y tipos de servicios #[i web]
+      h1 Concepto y tipos de servicios web
     
     .row.justify-content-center.mt-5
       .col-md-12
@@ -14,12 +14,12 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
           )                             
           .bloque-texto-g__texto.bloque-text-rigth.p-4
-            p En la cotidianidad las personas utilizan diferentes servicios como el agua, la energía eléctrica, el #[i Internet], servicios bancarios, transporte público, restaurantes, servicio de TV #[i Streaming], por medio de marcas reconocidas, entre los cuales se pueden encontrar unos gratuitos y otros pagos. Para ampliar la información descrita anteriormente, veamos lo siguiente:  
+            p En la cotidianidad las personas utilizan diferentes servicios como el agua, la energía eléctrica, el #[em Internet], servicios bancarios, transporte público, restaurantes, servicio de #[em TV Streaming], por medio de marcas reconocidas, entre los cuales se pueden encontrar unos gratuitos y otros pagos. Para ampliar la información descrita anteriormente, veamos lo siguiente:
 
       .col-md-9.mt-5
         .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
-          .row.justify-content-center.p-4 
-            p ¿Cuál es el flujo que normalmente sucede entre un servicio y un cliente?
+          .row.justify-content-center.text-bold.p-4 
+            p.text-bold ¿Cuál es el flujo que normalmente sucede entre un servicio y un cliente?
             .row.justify-content-center
               ol.lista-ol.ml-lista-ol
                 li 1. Existe la necesidad de utilizarlo, o de adquirirlo. 
@@ -28,7 +28,7 @@
                 li 4.	El servicio satisface una necesidad.
                 li 5.	Se genera un nivel de satisfacción en el usuario.
                 li 6.	El usuario toma decisiones frente al servicio.
-            p.mb-0  Se pueden mencionar también servicios tecnológicos en particular como: #[i Banca Online, e-commerce] (Compra de vuelos, compra de productos), #[i e-Learning], en los que el flujo es parecido.    
+            p.mb-0.text-bold  Se pueden mencionar también servicios tecnológicos en particular como: Banca #[i Online, e-commerce] (Compra de vuelos, compra de productos), #[i e-Learning], en los que el flujo es parecido.    
       .col-md-10.mt-5.mb-5
         .bloque-texto-b.color-primario
           .bloque-texto-b__texto
@@ -84,23 +84,23 @@
             tr
               td Descubrimiento o #[i Discovery]
               td El cliente que necesita acceder a la funcionalidad de un servicio #[i web] necesita una forma de resolver la ubicación del servicio remoto.
-              td #[i UDDI, DISCO]
+              td UDDI, DISCO
             tr
               td Descripción
               td Una vez que se ha resuelto el extremo de un servicio #[i web] dado, el cliente necesita suficiente información para interactuar adecuadamente con el mismo.
-              td #[i WSDL, XML Schema, Docs]
+              td WSDL, XML Schema, Docs
             tr
               td Formato de mensaje
               td Para el intercambio de datos, el cliente y el servidor tienen que estar de acuerdo en un mecanismo común de codificación y formato de mensaje.
-              td #[i SOAP]
+              td SOAP
             tr                
               td Codificación
               td Los datos que se transmiten entre el cliente y el servidor necesitan codificarse en un cuerpo de mensaje.
-              td #[i XML]
+              td XML
             tr  
               td Transporte
               td Luego que se ha dado formato al mensaje y se han serializado los datos en el cuerpo del mensaje se debe transferir entre el cliente y el servidor utilizando algún protocolo de transporte.
-              td #[i HTTP, SMTP,] etc.      
+              td HTTP, SMTP, etc.      
 
                 
 
@@ -213,7 +213,7 @@
             .col-lg
               .row.t-align-left 
                 h3 Estructura
-                p Utiliza solo sustantivos en plural para un URI. Ejemplo #[i /clients.]
+                p Utiliza solo sustantivos en plural para un URI. Ejemplo: /clients.
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/img16.png', alt='').img125
@@ -231,7 +231,7 @@
             .col-lg
               .row.t-align-left 
                 h3 Sub-recursos 
-                p Utiliza sub-recursos para relaciones entre recursos. Ejemplo: #[i /clients/]10#[i /companies.]
+                p Utiliza sub-recursos para relaciones entre recursos. Ejemplo: /clients/10/companies.
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/img18.png', alt='').img125

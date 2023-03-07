@@ -50,7 +50,7 @@
       .row.mt-5
         .col-md-6.mb-4.mb-md-0.px-5 
           .row.justify-content-center.align-items-center.my-lg-6.t-align
-            h5 Peticiones con un Gea
+            //h5 Peticiones con un Gea
             p La respuesta mostrada es en formato JSON. Se puede observar un objeto con los campos o claves: versión, que es un valor de texto y newsSites, newsSites a su vez, es un vector de textos.
         .col-md-5
           figure(data-aos="fade-right")
