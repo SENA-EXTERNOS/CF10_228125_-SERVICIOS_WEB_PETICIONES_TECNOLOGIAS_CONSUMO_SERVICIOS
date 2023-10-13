@@ -120,8 +120,7 @@
                 h5 Para mayor claridad, puede ver el video: 
                 a.mb-4.mb-lg-0(href="https://drive.google.com/file/d/1nYVN0dbszx_w8pxTMKluP6GotJvhNuTL/view?usp=sharing" target="_blank")
                   .anexo__texto
-                    p.mb-0 https://drive.google.com/file/d/
-                    |1nYVN0dbszx_w8pxTMKluP6GotJvhNuTL/view?usp=sharing
+                    p.mb-0 https://www.youtube.com/watch?v=czFj5zoI5uc
                 p.mt-3 Una vez descargado el ejecutable desde la página oficial de Node JS: ", en Windows, puede ejecutar haciendo doble clic sobre dicho ejecutable.
               .col-lg-5.col-6
                 figure
@@ -216,7 +215,7 @@
             .col-lg
               .row.t-align-left.mb-4 
                 h3 Instalación #[i express.js]
-                p Instale el #[i framework express.js], ejecutando en consola el comando: #[i npm install express]
+                p Instale el #[i framework express.js], ejecutando en consola el comando: #[i npm install express.]
                 p Notará que aparece un nuevo directorio #[i “node_modules”] y que puede transcurrir un tiempo considerable.          
             .col-auto
               figure(data-aos="zoom-in")
@@ -261,7 +260,7 @@
             .col-lg
               .row.t-align-left.mt-5
                 h3 Repositorio #[i Git]
-                p Ahora, debe subir su proyecto a un repositorio de #[i GIT], usando el gestor de repositorios #[i GitHub]. Lo primero que debe hacer es adquirir una cuenta, es gratis
+                p Ahora, debe subir su proyecto a un repositorio de #[i GIT], usando el gestor de repositorios #[i GitHub]. Lo primero que debe hacer es adquirir una cuenta, es gratis.
                 p Debe tener instalado en su máquina, #[i GIT.] Si no lo tiene, puede descargarlo desde: https://git-scm.com/
                 p Su instalación es sumamente fácil, solo seguir el #[i wizard] y dar siguiente a todo y finalizar, intente no seleccionar nada de lo que aparece en cada ventana que va apareciendo en los pasos siguientes.
 
