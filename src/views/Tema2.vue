@@ -130,8 +130,11 @@
                     p.mb-0 Recurso: #[i default.aspx]
             p Una petición desde un cliente consta de: una línea de #[i request,] los encabezados, una línea en blanco, si no se necesita un mensaje de #[i body] y algunas veces un #[i body]. Un mensaje de #[i body] puede ser de los distintos formatos como: #[i HTML, JSON o XML.]
       .col-md-6.mt-5
+        .titulo-sexto.color-acento-botones
+          h5 Imagen: 
+          span encabezados o headers de una petición (GET) y su respuesta       
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/img11.svg', alt='') 
+          img(src='@/assets/curso/temas/tema2/img11.png', alt='') 
 
     h4.mt-5 Tipos de métodos de petición 
     p.mt-4.mb-5 Los métodos existentes son GET y POST, el resto de los mencionados en la tabla anterior son casos especiales de estos.

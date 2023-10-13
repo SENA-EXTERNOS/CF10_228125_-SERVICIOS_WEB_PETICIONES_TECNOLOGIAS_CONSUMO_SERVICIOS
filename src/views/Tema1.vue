@@ -169,30 +169,26 @@
     p.mb-5 Como se comentó anteriormente, para la comunicación entre solicitantes, teniendo en cuenta que un cliente (hace petición al servicio), se puede convertir en un servidor (proveedor del servicio) y un servidor en cliente, los web service utilizan una forma de mensajes XML. El patrón de mensajería de petición (#[em request]) / respuesta (#[em response]), es la base de todas las interacciones entre los servicios web y el #[em software] que utiliza esos servicios.
 
 
-    .row.justify-content-center.mb-4
-      .col-md-3
-        figure
-          img(src='@/assets/curso/temas/tema1/img12.png', alt='')  
+    .row.justify-content-center.align-items-stretch.mb-4
+      .col-lg-3
+        img.img-a.img-t(src='@/assets/curso/temas/tema1/img12.png', alt='')  
         h4.mt-4.mb-4 SOAP       
         p Los mensajes XML cumplen con el estándar SOAP. Dicho estándar fue desarrollado por Microsoft. SOAP permite que un cliente invoque servicios, además, proporciona estandarización a las interacciones entre clientes y servidores. La manera en que XML define y organiza las solicitudes y respuestas, debe ser estándar para que ambas partes puedan entenderse entre sí.
 
-      .col-md-3
-        figure
-          img(src='@/assets/curso/temas/tema1/img13.png', alt='')  
+      .col-lg-3
+        img.img-a.img-t(src='@/assets/curso/temas/tema1/img13.jpg', alt='')  
         h4.mt-4.mb-4 XML-RPC      
         p Un ejemplo de #[em middleware] es la llamada procedimiento remoto (RPC). RPC es la base de los sistemas de #[em middleware] utilizados para ciertos servicios web; este permite a los clientes invocar procedimientos que se implementan en un servidor. Pero, ¿qué es un Middleware? Un #[em Middleware] es una capa intermedia entre dos sistemas, que realiza una tarea antes de llegar al destino final.
         p Entonces, cuando nos referimos a XML-RPC se habla más de un protocolo que de RPC que hace uso del formato XML.
         p XML-RPC es el protocolo más simple que se usa para la comunicación de computadoras para el intercambiar información, este estándar evolucionó a SOAP.
-        
-      .col-md-3
-        figure
-          img(src='@/assets/curso/temas/tema1/img14.png', alt='')  
+
+      .col-lg-3
+        img.img-a.img-t(src='@/assets/curso/temas/tema1/img14.png', alt='')  
         h4.mt-4.mb-4 JSON-RPC     
         p Es un protocolo de comunicación que se encarga de mandar una solicitud al servidor, por lo general el cliente, es un software, lo anterior, con el fin de generar invocaciones remotas entre dos objetos.
      
-      .col-md-3
-        figure
-          img(src='@/assets/curso/temas/tema1/img15.png', alt='')  
+      .col-lg-3
+        img.img-a.img-t(src='@/assets/curso/temas/tema1/img15.png', alt='')  
         h4.mt-4.mb-4 RESTFUL      
         p Cuando se habla de REST (Representational State Transfer), se refiere a una arquitectura de software web, cliente – servidor, basada en un diseño de petición y respuesta. Esta arquitectura (REST) se utiliza en aplicaciones distribuidas que usan HTTP para enviar mensajes y comunicarse entre componentes.
         p El cliente envía una solicitud y el servidor responde, pero en REST, la comunicación se basa en recursos. Esto significa que los mensajes se envían como representaciones de recursos. Los recursos pueden ser cualquier pieza de información que sea independiente. Esto puede incluir documentos, imágenes, representaciones de objetos, etc.

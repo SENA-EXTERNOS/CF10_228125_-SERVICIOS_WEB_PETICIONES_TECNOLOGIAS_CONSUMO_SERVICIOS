@@ -26,16 +26,15 @@
 
     p.mt-5.mb-4 En cuanto a los tipos y características de las tecnologías para probar servicios web, tenga presente:
 
-    SlyderA(tipo="b").bg-slider
-      .row.mt-5
-        .col-md-6.mb-4.mb-md-0.px-5
-          .row.justify-content-center.align-items-center.my-lg-6.t-align
+    SlyderA(tipo="b").bg-slider.p-3
+      .row.mt-5.px-4
+        .col-md-5.mb-4.mb-md-0.px-5
             h5 #[i Postman]                    
             p Es una plataforma API para construir y usar API.
             p Se puede descargar en su web oficial: https://www.postman.com/downloads/
             p La instalación es muy sencilla: en Windows, simplemente se ejecuta el instalador y se siguen las indicaciones.
             p Si se abre postman “de manera rápida”, se tendrá una interfaz muy parecida a la siguiente.
-        .col-md-5
+        .col-md-7
           figure(data-aos="fade-right")
             img(src="@/assets/curso/temas/tema3/img3.png", alt="alt")
       .row.mt-5
@@ -48,11 +47,11 @@
             img(src="@/assets/curso/temas/tema3/img4.png", alt="alt") 
       
       .row.mt-5
-        .col-md-6.mb-4.mb-md-0.px-5 
+        .col-md-5.mb-4.mb-md-0.px-5 
           .row.justify-content-center.align-items-center.my-lg-6.t-align
             //h5 Peticiones con un Gea
             p La respuesta mostrada es en formato JSON. Se puede observar un objeto con los campos o claves: versión, que es un valor de texto y newsSites, newsSites a su vez, es un vector de textos.
-        .col-md-5
+        .col-md-6
           figure(data-aos="fade-right")
             img(src="@/assets/curso/temas/tema3/img5.png", alt="alt") 
       .row.mt-5
@@ -153,10 +152,10 @@
               .col-lg-5.col-6
                 figure
                   img(src='@/assets/curso/temas/tema3/img13.png', alt='')    
-            .row.justify-content-center(titulo="Paso 7").pt-3
+            .row.justify-content-center(titulo="Paso 7").pt-3.px-3
               .col-lg-5.mb-4.mb-lg-0
                 p Seguidamente, proceda a instalar #[i Visual Studio Code,] Debe ir a la web oficial #[i https://code.visualstudio.com/download,] descargarlo e instalarlo. La instalación también es sencilla, fácil y rápida.
-              .col-lg-5.col-6
+              .col-lg-6
                 figure
                   img(src='@/assets/curso/temas/tema3/img14.png', alt='') 
 
@@ -166,7 +165,7 @@
       .col-lg-10
         PasosA.color-acento-botones.mb-5(tipo="n")
           .row
-            .col-lg
+            .col-lg-12
               .row.t-align-left 
                 h3 Carpeta
                 p Crear una carpeta en el lugar que desee y renombrarla en este caso como (#[i apirest]).
@@ -193,16 +192,17 @@
                 img(src='@/assets/curso/temas/tema3/img17.png', alt='').img125
 
           .row
-            .col-auto
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema3/img18.png', alt='').img125
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema3/img19.png', alt='').img125                
             .col-lg
               .row.t-align-left.mt-5
                 h3 Ir a Consola 
                 p Diríjase a la “consola” del #[i IDE] y ejecute el comando: #[i “npm init -y”] y presione #[i enter.]
-                p Observación: en la imagen se muestra en la parte inferior izquierda, debe dar clic para que aparezca, en caso que no se esté mostrando, y luego en la pestaña “terminal”, escriba el comando y presione #[i enter.]
+                p Observación: en la imagen se muestra en la parte inferior izquierda, debe dar clic para que aparezca, en caso que no se esté mostrando, y luego en la pestaña “terminal”, escriba el comando y presione #[i enter.]          
+            .col-auto
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/temas/tema3/img19.png', alt='').img125             
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/temas/tema3/img18.png', alt='').img125
+
           .row
             .col-lg
               .row.t-align-left 
@@ -213,16 +213,17 @@
                 img(src='@/assets/curso/temas/tema3/img20.png', alt='').img125
 
           .row
+            .col-lg
+              .row.t-align-left.mb-4 
+                h3 Instalación #[i express.js]
+                p Instale el #[i framework express.js], ejecutando en consola el comando: #[i npm install express]
+                p Notará que aparece un nuevo directorio #[i “node_modules”] y que puede transcurrir un tiempo considerable.          
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema3/img21.png', alt='').img125
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema3/img22.png', alt='').img125                
-            .col-lg
-              .row.t-align-left 
-                h3 Instalación #[i express.js]
-                p Instale el #[i framework express.js], ejecutando en consola el comando: #[i npm install express]
-                p Notará que aparece un nuevo directorio #[i “node_modules”] y que puede transcurrir un tiempo considerable.
+
           .row
             .col-lg
               .row.t-align-left.top-margin 
@@ -236,7 +237,7 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema3/img24.png', alt='').img125             
             .col-lg
-              .row.t-align-left 
+              .row.t-align-left.mt-4 
                 h3 Guarde todos los cambios y ejecute con el comando: #[i “node server” o “node server.js”]
                 p Observación: puede omitir la extensión #[i .js] del archivo o no.
                 p Si ha seguido el paso a paso, deberá ver el mensaje de ejecución correcta. #[i “Server listening on port 3000”]
@@ -250,15 +251,15 @@
                 p Sería entonces: #[i “localhost:3000/clients”]
             .col-auto
               figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema3/img25.png', alt='').img125  
+                img.img-a.img-t(src='@/assets/curso/temas/tema3/img25.png', alt='')  
                 figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema3/img26.png', alt='').img125 
+                img.img-a.img-t(src='@/assets/curso/temas/tema3/img26.png', alt='') 
           .row
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema3/img27.png', alt='').img125             
             .col-lg
-              .row.t-align-left 
+              .row.t-align-left.mt-5
                 h3 Repositorio #[i Git]
                 p Ahora, debe subir su proyecto a un repositorio de #[i GIT], usando el gestor de repositorios #[i GitHub]. Lo primero que debe hacer es adquirir una cuenta, es gratis
                 p Debe tener instalado en su máquina, #[i GIT.] Si no lo tiene, puede descargarlo desde: https://git-scm.com/
@@ -280,7 +281,7 @@
                 .col-lg-5.mb-4.mb-lg-0
                   h5 Crear la cuenta
                   p Si aún no tiene cuenta, dar clic en el botón de registro #[i “Sign Up”], ubicado en la parte superior derecha y suministrar los datos que se solicitan, si ya tiene una cuenta, por favor inicie sesión.
-                .col-lg-5.col-6
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema3/img28.png', alt='')
               .row.justify-content-center(titulo="Paso 2").pt-3
@@ -288,21 +289,21 @@
                   h5 Ingrese y ejecute 
                   p.mt-3 Una vez haya creado su cuenta, e ingresado a #[i GitHub] con su usuario y contraseña, deberá seguir los siguientes pasos:
                   p 1.	Dar clic en el botón “Nuevo” (#[i new]).
-                .col-lg-5.col-6
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema3/img29.png', alt='')  
               .row.justify-content-center(titulo="Paso 3").pt-3
                 .col-lg-5.mb-4.mb-lg-0
                   h5 Renombrar el repositorio 
                   p.mt-3 Escriba un nombre, puede ser #[i “apirestge”]. Deje las demás opciones como aparecen por defecto, diríjase al final de la página y haga clic en el botón #[i “create repository”] (crear repositorio).                  
-                .col-lg-5.col-6
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema3/img30.png', alt='')    
               .row.justify-content-center(titulo="Paso 4").pt-3
                 .col-lg-5.mb-4.mb-lg-0
                   h5 Siga las indicaciones 
                   p.mt-3 Posteriormente, aparecerá la siguiente pantalla y deberá simplemente seguir en una consola de comandos las indicaciones que allí se indican.
-                .col-lg-5.col-6
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema3/img31.png', alt='')   
               .row.justify-content-center(titulo="Paso 5").pt-3
@@ -310,7 +311,7 @@
                   h5 Seleccione 
                   p.mt-3 Copie y pegue comando por comando como se indica en el cuadro de: #[i “… or create a new repository on the command line”]. El comando #[i “git add README.md”] debe reemplazarlo por: #[i “git add”] para que agregue todos (fíjese que después de add va un punto que indica agregar todo). El resto de los comandos van igual.                  
                   p Abra una ventana haciendo clic derecho sobre la carpeta del directorio (en la parte blanca, sin seleccionar ningún elemento dentro de ella) y selecciona la opción “Git bash here”.
-                .col-lg-5.col-6
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema3/img32.png', alt='')   
               .row.justify-content-center(titulo="Paso 6").pt-3
@@ -318,7 +319,7 @@
                   h5 Código subido al repositorio de #[i GitHub.] 
                   p.mt-3 Aparecerá la ventana bash de Git y aquí debe escribir comando por comando. Por ejemplo, el primer comando es: “echo "# apirestget" >> README.md”
                   p Una vez haya ejecutado cada comando, actualice el navegador y verá su código subido al repositorio de GitHub.
-                .col-lg-5.col-6
+                .col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema3/img33.png', alt='')
 
