@@ -182,7 +182,7 @@ export default {
         'es el nombre asociado con algunas de las herramientas más conocidas y ampliamente utilizadas para implementar la especificación <i>OpenAPI</i>.',
     },
     {
-      termino: '<i>UUID</i>',
+      termino: '<i>UDDI</i>',
       significado:
         'la especificación <i>UDDI (Universal Description, Discovery, and Integration)</i> define un modo de publicar y encontrar información sobre servicios <i>web</i>.',
     },
@@ -209,7 +209,7 @@ export default {
     },
     {
       referencia: 'IBM Corporation. (2022). <em>Servicios Web</em>. IBM. ',
-      link: 'https://nodejs.org/es/',
+      link: 'https://nodejs.org/en',
     },
     {
       referencia:

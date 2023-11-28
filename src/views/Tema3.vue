@@ -118,7 +118,7 @@
             .row.justify-content-center(titulo="Paso 2").pt-3
               .col-lg-5.mb-4.mb-lg-0
                 h5 Para mayor claridad, puede ver el video: 
-                a.mb-4.mb-lg-0(href="https://drive.google.com/file/d/1nYVN0dbszx_w8pxTMKluP6GotJvhNuTL/view?usp=sharing" target="_blank")
+                a.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=czFj5zoI5uc" target="_blank")
                   .anexo__texto
                     p.mb-0 https://www.youtube.com/watch?v=czFj5zoI5uc
                 p.mt-3 Una vez descargado el ejecutable desde la página oficial de Node JS: ", en Windows, puede ejecutar haciendo doble clic sobre dicho ejecutable.
